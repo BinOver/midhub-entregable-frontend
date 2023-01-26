@@ -1,0 +1,51 @@
+* {
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.head {
+    background-image: linear-gradient(75deg, #0f0f0f52, #00000098),url(../images/design1_image1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 250px;
+}
+
+/* #logo {
+    width: 25%;
+} */
+#logo img{
+    width: 10em;
+}
+
+/* .banner {
+    width: 65%;
+} */
+
+.banner h1 {
+    color: aliceblue;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.nav {
+    margin-left: 5px;
+    padding: 5px;
+    border: 5px;
+    border-color: black;
+    text-align: right;
+}
+
+.nav a {
+    background-color: rgb(54, 54, 54);
+    text-decoration: none;
+    color:aliceblue;
+    border-radius: 5% / 10%;
+    padding: 10px;
+}
+
+.title-index h2{
+    background-color: rgb(252, 215, 166);
+}
