@@ -3,6 +3,7 @@
     padding:0;
     text-decoration: none;
     list-style: none;
+    box-sizing: border-box;
 }
 
 .head {
@@ -10,8 +11,14 @@
     height: 250px;
 }
 
+#logo {
+    display: inline;
+    width: 20%;
+}
+
 #logo img{
     width: 10em;
+    display:inline-block
 }
 
 .banner h1 {
@@ -63,4 +70,5 @@
 
 .info{
     width: 80%;
+    display: inline-block;
 }
