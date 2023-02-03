@@ -223,15 +223,58 @@ figure > img {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
-    /* align-items: center; */
+    align-items: center;
 }
-
 .gameinfo-info{
     font-size: 20px;
     /* min-height: 200px; */
     color: antiquewhite;
     margin: 10px;
     /* width: 50%; */
+}
+.gameinfo-colsep{
+    text-align: center;
+}
+.table1{
+    /* width: 700px; */
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.table1 td {
+    padding-left: 10px;
+}
+.table1-col1{
+    background-color: rgb(63, 68, 32);
+    width: 150px;
+}
+.table1-col2{
+    background-color: rgb(63, 68, 32);
+    width: 140px;
+    
+}
+.table1-col3{
+    background-color: rgb(63, 68, 32);
+    width: 180px;
+    
+}
+.table1-col4{
+    background-color: rgb(63, 68, 32);
+    width: 100px;
+    
+}
+
+.table1-td__center{
+    text-align: center;
+}
+
+.table2{
+    margin-bottom: 30px;
+}
+
+.table2 td {
+    padding: 10px;
 }
 
 /* FOOTER */
