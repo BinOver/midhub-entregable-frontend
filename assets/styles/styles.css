@@ -277,6 +277,153 @@ figure > img {
     padding: 10px;
 }
 
+.gameinfo-maps {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gameinfo-maps p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: antiquewhite;
+    text-align: center;
+}
+
+.gameinfo-maps iframe{
+    border-radius: 5% / 8%;
+    border: 1px solid;
+    box-shadow: 3px 3px 3px 0px rgba(104, 104, 104, 0.75);
+}
+
+/* REGISTRATION */
+
+.registration-container{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: antiquewhite;
+}
+
+.registration-container h1{
+    margin: 10px;
+}
+
+form{
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 700px;
+}
+
+form fieldset{
+    display: flex;
+    flex-direction: row;
+    border: 0;
+}
+
+form h2,h4,p{
+    margin-bottom: 15px;
+}
+
+fieldset input{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+fieldset#refistration_form-fullname, fieldset#refistration_form-street, fieldset#refistration_form-city,fieldset#registration_form-grade,fieldset#registration_form-bdaygender {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+fieldset#refistration_form-fullname input{
+/* margin-left: 10px; */
+margin-right: 10px;
+margin-bottom: 10px;
+}
+
+
+#refistration_form-street input[type="text"] {
+    /* height: 1.5rem;
+    margin: 1rem 3.3rem 1rem 0px;
+    font-size: 1.2rem; */
+    width:80%;
+}
+
+#refistration_form-city input[type="text"] {
+    width:40%;
+}
+
+fieldset#registration_form-bdaygender span{
+    margin-right:  15px;
+}
+
+#registration_form-school{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#registration_form-school fieldset{
+    width:50%
+}
+
+#registration_form-position{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#registration_form-position fieldset{
+    width:50%
+}
+
+#registration_form-size{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#registration_form-size fieldset{
+    width:50%
+}
+
+.btn_submit{
+    background-color: #5fa199;
+    text-decoration: none;
+    color:#f8e12e;
+    border: 1px solid #c64832;
+    border-radius: 5%/10%;
+    padding: 10px;
+    box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
+}
+
+
+/* SHOWDATA */
+.showdata-container{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: antiquewhite;
+}
+.showdata-container h1{
+    margin: 20px;
+}
+
+figure {
+    padding-top:20px;
+}
 /* FOOTER */
 footer {
     display: flex;
