@@ -10,44 +10,40 @@
 </head>
 <body>
     <header class="head">
-            <nav class="nav">
-                <div class="nav-logo">
-                    <img src="../assets/images/Logo_Mighty_ducks-01.png" alt="logo">
-                    <p>Mighty Ducks Hockey League</p>
-                </div>
-                <div class="nav-navegacion">
-                    <a href="./index.html">Home</a>
-                    <a id="a-active" href="#">About MDHL</a>
-                    <a href="./rules.html">Rules</a>
-                    <a href="./game_info.html">Information</a>
-                    <a href="./contact.html">contact</a>
-                    <a href="#">Registration</a>
-
-                </div>
-            </nav>
-        </div>
+        <nav class="nav">
+            <div class="nav-logo">
+                <img src="../assets/images/Logo_Mighty_ducks-01.png" alt="logo">
+                <p>Mighty Ducks Hockey League</p>
+            </div>
+            <div class="nav-navegacion">
+                <a href="./index.html">Home</a>
+                <a id="a-active" href="#">About MDHL</a>
+                <a href="./rules.html">Rules</a>
+                <a href="./game_info.html">Information</a>
+                <a href="./contact.html">contact</a>
+                <a href="#">Registration</a>
+    
+            </div>
+        </nav>
     </header>
 
     <main>
-        <section>
+        <div>
             <div class="hero2">
                 <p class="hero-p">Registration</p>
             </div>
-        </section>
+        </div>
         <div class="showdata-container">
-        
                 <p align=center>&nbsp;</p>
                 <h1 align=center>
                     <font size="+1">The following information has been sent as your
                         feedback:</font>
                 </h1>
-        
                 <table border="1" align=center width="226">
                     <tr>
                         <th align="center">Form Field</th>
                         <th align="center">Field Value</th>
                     </tr>
-        
                     <script language="javascript">
                         var args = location.search.substr(1).split('&');
                         for (var i = 0; i < args.length; ++i) {
@@ -61,7 +57,6 @@
                                 else {
                                     value = '"' + unescape(value.replace(/\+/g, ' ')) + '"';
                                 }
-
                                 document.writeln('<tr><td align="center">' + field + '</td>');
                                 document.writeln('<td align="center">' + value + '</td></tr>');
                             }
@@ -90,7 +85,6 @@
                         </tr>
                     </noscript>
                 </table>
-
             <div>
                 <figure>
                     <img width=200 src="../assets/images/Logo_Mighty_ducks-01.png" alt="logo">
@@ -103,5 +97,6 @@
         <div>
             <p>Mighty Ducks Hockey League</p>
         </div>
+    </footer>
 </body>
 </html>

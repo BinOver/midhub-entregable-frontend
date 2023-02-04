@@ -311,6 +311,7 @@ figure > img {
     justify-content: space-around;
     align-items: center;
     color: antiquewhite;
+    margin-top: 20px;
 }
 
 .registration-container h1{
