@@ -47,22 +47,28 @@
 }
 
 .nav-navegacion {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     padding: 10px;
 }
 
 .nav-navegacion a{
-    background-color: #5fa199;
+    background-color: #547f7b;
     text-decoration: none;
     color:#f8e12e;
     border: 1px solid #c64832;
     border-radius: 5%/10%;
     padding: 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
     box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
 
 }
 
 .nav-navegacion a:hover{
-    background-color: #3f6c67;
+    background-color: #38605c;
 }
 
 /* BODY */
@@ -399,13 +405,17 @@ fieldset#registration_form-bdaygender span{
 }
 
 .btn_submit{
-    background-color: #5fa199;
+    background-color: #547f7b;
     text-decoration: none;
     color:#f8e12e;
     border: 1px solid #c64832;
     border-radius: 5%/10%;
     padding: 10px;
     box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
+}
+
+.btn_submit:hover{
+    background-color: #38605c;
 }
 
 
