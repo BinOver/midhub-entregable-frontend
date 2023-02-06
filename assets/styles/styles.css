@@ -115,7 +115,6 @@ body::after {
 
 /* INDEX */
 
-
 .info-container{
     display: flex;
     flex-direction: row;
@@ -308,6 +307,13 @@ figure > img {
     box-shadow: 3px 3px 3px 0px rgba(104, 104, 104, 0.75);
 }
 
+.gameinfo-maps__options{
+    width:400px;
+    height:300px;
+    border:0;
+}
+
+
 /* REGISTRATION */
 
 .registration-container{
@@ -449,3 +455,292 @@ footer p{
     color:antiquewhite;
 }
 
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+    /* HEADER */
+    .nav-logo {
+
+        width: 400px;
+    }
+
+    .nav-logo img {
+        width: 75px;
+    }
+
+    .nav-logo p {
+        font-size: 15px;
+        padding-left: 10px;
+        margin: 0;
+    }
+
+    .nav-navegacion {
+
+        justify-content: center;
+        padding: 5px;
+    }
+
+    .nav-navegacion a {
+        padding: 5px;
+    }
+
+    /* BODY */
+
+
+    body::after {
+        height: 100px;
+    }
+
+    .hero {
+        height: 130px;
+    }
+
+    .hero2 {
+        height: 130px;
+    }
+
+    /* INDEX */
+
+    .index-info {
+        margin-top: 30px;
+    }
+
+    .index-info p {
+        margin-bottom: 10px;
+    }
+
+    figure>img {
+        width: 200px
+    }
+
+    /* contact */
+
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact-info {
+        font-size: 16px;
+        width: 80%;
+    }
+
+    /* aboutMDHL */
+
+    .aboutMDHL-info {
+        font-size: 16px;
+        width: 85%;
+    }
+
+    /* RULES */
+
+    .rules-info {
+        font-size: 16px;
+        width: 85%;
+    }
+
+    /* GAME_INFO */
+
+    .gameinfo-info {
+        font-size: 12px;
+    }
+
+    .gameinfo-maps iframe {
+        border-radius: 7% / 8%;
+    }
+
+    .gameinfo-maps__options {
+        width: 260px;
+        height: 250px;
+        border: 0;
+    }
+
+    /* REGISTRATION */
+
+    .registration-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        color: antiquewhite;
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+
+    .registration-container h1 {
+        margin: 10px;
+    }
+
+    form {
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+    }
+
+    form fieldset {
+        display: flex;
+        flex-direction: column;
+        border: 0;
+        width: 100%;
+    }
+
+    form h2,
+    h4,
+    p {
+        margin-bottom: 15px;
+    }
+
+    fieldset input[type="text"] {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+
+    fieldset#registration_form-grade,
+    fieldset#registration_form-bdaygender {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    fieldset#registration_form-bdaygender span {
+        margin: 0;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    fieldset#registration_form-bdaygender input {
+        margin: 0;
+        margin-left: 10px;
+    }
+
+    fieldset#registration_form-grade input {
+        margin: 0;
+        margin-left: 10px;
+    }
+
+    fieldset#registration_form-grade span {
+        margin: 0;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    fieldset#refistration_form-fullname input {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+
+    #refistration_form-street input[type="text"] {
+        width: 100%;
+    }
+
+    #refistration_form-city input[type="text"] {
+        width: 100%;
+    }
+
+    fieldset#registration_form-bdaygender span {
+        margin-right: 15px;
+    }
+
+    form #registration_form-school fieldset {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #registration_form-school fieldset {
+        width: 100%;
+    }
+
+    #registration_form-school>fieldset>input[type="checkbox"] {
+        width: 10%;
+    }
+
+    #registration_form-school>fieldset>span {
+        width: 50%;
+    }
+
+    form #registration_form-position fieldset {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #registration_form-position fieldset {
+        width: 100%;
+    }
+
+    #registration_form-position>fieldset>input[type="checkbox"] {
+        width: 10% ;
+    }
+
+    #registration_form-position>fieldset>span {
+        width: 50% ;
+    }
+
+
+    form #registration_form-size fieldset {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #registration_form-size fieldset {
+        width: 100%;
+    }
+
+    #registration_form-size>fieldset>input[type="ratio"] {
+        width: 10% ;
+    }
+
+    #registration_form-size>fieldset>span {
+        width: 50% ;
+    }
+
+    .btn_submit {
+        background-color: #547f7b;
+        text-decoration: none;
+        color: #f8e12e;
+        border: 1px solid #c64832;
+        border-radius: 5%/10%;
+        padding: 10px;
+        box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.75);
+    }
+
+    .btn_submit:hover {
+        background-color: #38605c;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    /* aboutMDHL */
+    .aboutMDHL-info {
+        font-size: 18px;
+        width: 85%;
+    }
+
+    /* RULES */
+    .rules-info {
+        font-size: 18px;
+        width: 85%;
+    }
+
+    /* GAME_INFO */
+    .gameinfo-info {
+        font-size: 18px;
+    }
+
+    .gameinfo-maps iframe {
+        border-radius: 7% / 8%;
+    }
+
+    .gameinfo-maps__options {
+        width: 260px;
+        height: 250px;
+        border: 0;
+    }
+}
